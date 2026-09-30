@@ -1,0 +1,94 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.corfundo{
+    background-color: rgb(244, 244, 235);
+}
+
+.divfixa{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    margin-top: 10%;
+    left: auto;
+    width: 7%;
+    height: 55%;
+    background-color: rgb(244, 244, 235);
+    vertical-align: middle;
+    align-items: center;
+}
+
+.imagensfixa{
+    width: 150px;
+    height: auto; 
+    object-fit: cover;
+}
+
+.fotoperfil{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 4px solid black;
+    object-fit: cover;
+}
+
+.divfoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linhaseparadora{
+    width: 800px; 
+    margin: 30px auto; 
+    border: none;
+    border-top: 3px solid black;
+}
+
+.linha-contatos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  font-size: 16px;
+  color: black;
+}
+
+.divsobremim{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 400px;
+    padding: 40px 60px 40px 0;
+}
+
+.aside{
+  width: 200px;   
+  height: auto;  
+}
+
+.section {
+  max-width: 700px;
+}
+
+.header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: block; 
+}
+
+.article {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+li, ul {
+    margin-left: 40px;
+    padding-left: 0;
+}

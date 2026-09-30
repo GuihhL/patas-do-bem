@@ -1,0 +1,131 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#div1{
+    display: flex;
+    width: 30%;
+    height: 1000px;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div2{
+    display: flex;
+    width: 70%;
+    height: 1000px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.foto{
+    width: 40%;
+    height: 17%;
+    object-fit: cover;
+    border-radius: 120px;
+    margin-top: 60px;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.title1{
+    font-family: playfair display, serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+.idade_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+    margin-top: -20px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.commum_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 0;              
+    padding-left: 3px;  
+    margin-top: 65px;
+}
+
+.item-menu {
+    display: flex;
+    gap: 12px;           
+    margin-top: 30px;   
+    width: 80%;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    gap: 12px;           
+    width: 80%;
+    margin-left: 115px;
+}
+.contact_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; 
+    margin-top: 61px;
+}
+
+.content-section{
+    width: 80%;
+    margin-top: 60px;
+}
+
+.section-title{
+    font-family: playfair display, serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.subsection-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.skills-list{
+    font-size: 18px;
+}
